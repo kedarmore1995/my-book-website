@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+body{
+    
+    background-color: rgb(242, 247, 250);
+    align-items: center;
+
+}
+
+.mainheader .header-1{
+    display: flex;
+    width:100%;
+    background-color:rgb(0,166,255);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 15%;
+    
+}
+
+.mainheader h1{
+    font-size: x-large;
+}
+
+.mainheader .cart{
+   font-size:medium; 
+}
+
+.mainheader .header-1 .search{
+    display: flex;
+    flex-basis: 40%;
+    height: 30px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-left: 5px;
+    min-height: 100%;
+    font-size: small;
+    margin-right: 200px;
+}
+
+.mainheader .header-1 .search #search{
+    outline: none;
+    border: none;
+    width: 80%;
+    padding-left: 15px;
+}
+.header-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 15%;
+}
+
+.dropdown{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.dropdown button{
+    background-color: rgb(193, 226, 255);
+    border: none;
+    display: block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    min-width: 100%;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: small;
+}
+
+.dropdown .content{
+    display: none   ;
+    background-color: aliceblue;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgb(49, 49, 49) ;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: rgb(0,166,255);
+}
+
+.dropdown a:hover{
+    background-color: rgb(0,166,255);
+}
+
+.container{
+    width: 1000px;
+    margin-left: 135px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    display: flexbox;
+    width: 195px;
+    margin: 20px;
+    background-color:rgb(210, 210, 210);
+    box-shadow: 2px 2px 5px rgb(135, 135, 135) ;
+
+}
+
+.bookimg{
+    height: 150px;
+    background-size:contain;
+    background-color: rgb(201, 201, 201);
+    margin: 20px 50px;
+}
+.data{
+    background-color: #fff;
+    height: 110px;
+}
+
+.img-1{
+    background-image: url('../css/0df90fb803aff4d8e757046305791b6a.jpg');
+}
+
+.img-2{
+    margin: 20px 50px;
+    background-image: url('../css/29056083.jpg');
+}
+
+.img-3{
+    background-image: url('../css/download.jpeg');
+}
+.img-4{
+    background-image: url('../css/download\ \(1\).jpeg');
+}
+.img-5{
+    background-image: url('../css/download\ \(2\).jpeg');
+}
+.img-6{
+    background-image: url('../css/download\ \(3\).jpeg');
+}
+.img-7{
+    background-image: url('../css/download\ \(4\).jpeg');
+}
+.img-8{
+    background-image: url('../css/images\ \(3\).jpeg');
+}
+.img-9{
+    background-image: url('../css/images\ \(4\).jpeg');
+}
+.img-10{
+    background-image: url('../css/download\ \(6\).jpeg');
+    
+}
+.img-11{
+    background-image: url('../css/images\ \(1\).jpeg');
+}
+.img-12{
+    background-image: url('../css/art-book-cover-design-template-34323b0f0734dccded21e0e3bebf004c_screen.jpg');
+}
+
+
+h3{
+    padding-top: 7px;
+    font-size:medium;
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+
+p{
+    font-size:smaller;
+    color: grey;
+    padding-left: 16px;
+    /* margin-left: 18px; */
+}
+
+.data button{
+    background-color: aliceblue;
+    border: none;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flexbox;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.pagination{
+    text-align: center;
+}
+
+.pagination a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+}
+
+.pagination a.active{
+    background-color: rgb(0,166,255);
+    border-radius: 5px ;
+}
+
+footer{
+    background-color: rgb(0,166,255);
+}
+
+footer p{
+    padding: 20px;
+    width: 100%;
+    padding: 1rem 15%;
+    /* margin-left: 160px; */
+    color: black;
+}
