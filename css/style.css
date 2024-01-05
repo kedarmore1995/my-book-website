@@ -50,6 +50,7 @@ body{
     border: none;
     width: 80%;
     padding-left: 15px;
+    background-color: #fff;
 }
 
 .search > i{
@@ -247,9 +248,9 @@ footer p{
     }
     .mainheader .header-1 .search{
         width: 100px;
+        background-color: #fff;
     }
     .header-2{
         padding: 10px 7%;
     }
-    
 }
