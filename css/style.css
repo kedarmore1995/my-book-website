@@ -58,7 +58,7 @@ body{
 .header-2{
     display: flex;
     justify-content: space-between;
-    padding: 10px 15%;
+    padding: 15px 15%;
 }
 
 .dropdown{
