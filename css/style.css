@@ -243,9 +243,14 @@ footer p{
     .mainheader .header-1{
         display: flex;
         justify-content:space-between;
+        padding: 10px 7%;
     }
     .mainheader .header-1 .search{
-        width: 100px;
+        width: 150px;
+    }
+    .header-2{
+        
+        padding: 10px 7%;
     }
     
 }
